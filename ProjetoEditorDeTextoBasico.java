@@ -26,7 +26,7 @@ public class ProjetoEditorDeTextoBasico extends Application {
 		borderPane.setCenter(areaEditavel);
 
 		Scene cena = new Scene(borderPane, 800, 600);
-		palco.setTitle("Edito de Texto Básico");
+		palco.setTitle("Editor de Texto Básico");
 		palco.setScene(cena);
 		palco.show();
 	}
@@ -47,4 +47,5 @@ public class ProjetoEditorDeTextoBasico extends Application {
 	public static void main(String[] args) {
 		launch(args);
 	}
+
 }
